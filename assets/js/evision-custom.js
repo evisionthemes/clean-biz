@@ -135,6 +135,14 @@ jQuery(document).ready(function ($) {
       
 
     });
+
+    var hheight = selectedHeader.outerHeight();
+
+    function setTopPadding() {
+      jQuery('#content').css({'padding-top' : hheight + 30});
+    }
+
+    setTopPadding();
 });
 
 
