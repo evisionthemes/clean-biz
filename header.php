@@ -72,6 +72,14 @@ do_action( 'clean_biz_action_before_header' );
 do_action( 'clean_biz_action_header' );
 
 /**
+ * clean_biz_action_after_title hook
+ * @since clean-biz 1.0.0
+ *
+ * @hooked for breadcrum - 10
+ */
+do_action( 'clean_biz_action_after_title' );
+
+/**
  * clean_biz_action_page_start hook
  * @since clean-biz 1.0.0
  *

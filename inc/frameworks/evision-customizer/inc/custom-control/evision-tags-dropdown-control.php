@@ -45,7 +45,7 @@ if ( class_exists( 'WP_Customize_Control' ) && !class_exists( 'Evision_Customize
                         }
                         printf('<option value="-1" %s>%s</option>',selected( $default_selected, 1, false ),__( 'Select','clean-biz' ) );
                         foreach ( $tags as $tag ) {
-                            printf('<option value="%s" %s>%s</option>', $tags->term_id, selected( $this->value(), $tag->ID, false ), $tags->name );
+                            printf('<option value="%s" %s>%s</option>', $tags->term_id, selected( $this->value(), $tag->ID, false ), esc_attr($tags->name) );
                         }
                         ?>
                     </select>

@@ -318,7 +318,7 @@ if( ! function_exists( 'clean_biz_add_breadcrumb' ) ) :
         if ( 1 != $breadcrumb_enable_breadcrumb ) {
             echo '<div id="breadcrumb" class="wrapper wrap-breadcrumb">';
             echo '</div><!-- #breadcrumb -->';
-            return;
+             return;
         }
         // Bail if Home Page
         if ( is_front_page() || is_home() ) {
