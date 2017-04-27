@@ -38,10 +38,10 @@ if ( ! function_exists( 'clean_biz_widget_before_footer' ) ) :
                 $col = 'col-xs-12 col-sm-12 col-md-12';
             }
         elseif( 2 == $clean_biz_footer_widgets_number ){
-            $col = 'col-xs-6 col-sm-6 col-md-6';
+            $col = 'col-xs-12 col-sm-6 col-md-6';
         }
         elseif( 3 == $clean_biz_footer_widgets_number ){
-            $col = 'col-xs-6 col-sm-4 col-md-4';
+            $col = 'col-xs-12 col-sm-4 col-md-4';
         }
         else{
             $col = 'col-xs-12 col-sm-6 col-md-3';

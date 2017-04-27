@@ -288,7 +288,7 @@ function clean_biz_slider_page_start() {
         if (  is_front_page() && !is_home() ) {
             do_action('clean_biz_action_main_slider');
         } else {
-            do_action( 'clean_biz_action_after_title' );
+            //do_action( 'clean_biz_action_after_title' );
         }
     ?>
         </header>
@@ -318,7 +318,7 @@ if( ! function_exists( 'clean_biz_add_breadcrumb' ) ) :
         if ( 1 != $breadcrumb_enable_breadcrumb ) {
             echo '<div id="breadcrumb" class="wrapper wrap-breadcrumb">';
             echo '</div><!-- #breadcrumb -->';
-             return;
+            return;
         }
         // Bail if Home Page
         if ( is_front_page() || is_home() ) {

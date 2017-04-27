@@ -136,13 +136,26 @@ jQuery(document).ready(function ($) {
 
     });
 
-    var hheight = selectedHeader.outerHeight();
+    var hheight = selectedHeader.outerHeight(),
+        bcumbheight = jQuery('#breadcrumb').outerHeight();
 
     function setTopPadding() {
-      jQuery('#content').css({'padding-top' : hheight + 30});
+      var hheight = selectedHeader.outerHeight(),
+          bcumbheight = jQuery('#breadcrumb').outerHeight();
+
+      jQuery('.wrap-breadcrumb').css({'top' : hheight });
+      if( jQuery(window).width() > 767) {
+        if(jQuery('body').hasClass('home')){
+          jQuery('#content').css({'padding-top' : hheight});
+        } else{
+          jQuery('#content').css({'padding-top' : hheight + bcumbheight + 30});
+        }
+      }
     }
 
     setTopPadding();
+
+    jQuery(window).resize(setTopPadding);
 });
 
 
