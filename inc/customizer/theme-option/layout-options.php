@@ -5,6 +5,7 @@ global $clean_biz_repeated_settings_controls;
 global $clean_biz_customizer_defaults;
 
 /*defaults values*/
+$clean_biz_customizer_defaults['clean-biz-enable-selected-page'] = 1;
 $clean_biz_customizer_defaults['clean-biz-default-layout'] = 'right-sidebar';
 $clean_biz_customizer_defaults['clean-biz-single-post-image-align'] = 'full';
 $clean_biz_customizer_defaults['clean-biz-excerpt-length'] = '50';
@@ -13,12 +14,25 @@ $clean_biz_customizer_defaults['clean-biz-archive-image-align'] = 'full';
 
 $clean_biz_sections['clean-biz-layout-options'] =
     array(
-        'priority'       => 20,
+        'priority'       => 10,
         'title'          => __( 'Layout Options', 'clean-biz' ),
         'panel'          => 'clean-biz-theme-options',
     );
 
 /*layout-options option responsive lodader start*/
+$clean_biz_settings_controls['clean-biz-enable-selected-page'] =
+    array(
+        'setting' =>     array(
+            'default'              => $clean_biz_customizer_defaults['clean-biz-enable-selected-page'],
+        ),
+        'control' => array(
+            'label'                 =>  __( 'Enable Selected Front Page', 'clean-biz' ),
+            'description'           =>  __( 'If you disable this the selected page will be disappera form the home page and other section from customizer will reamin as it is', 'clean-biz' ),
+            'section'               => 'clean-biz-layout-options',
+            'type'                  => 'checkbox',
+            'priority'              => 10,
+        )
+    );
 
 $clean_biz_settings_controls['clean-biz-default-layout'] =
     array(

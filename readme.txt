@@ -6,8 +6,8 @@ Contributors: evisiontheme
 Tags: full-width-template, left-sidebar, right-sidebar, one-column, grid-layout, custom-header, sticky-post, theme-options, threaded-comments, translation-ready, two-columns, custom-background, custom-colors, custom-menu, featured-images, footer-widgets, custom-logo, e-commerce, portfolio
 
 Requires at least: 4.0
-Tested up to: 4.7.3
-Stable tag: 1.0.0
+Tested up to: 4.7.4
+Stable tag: 1.0.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -101,6 +101,10 @@ Note:
 	If your Image is not align properly, then you can try regenerate thumbnails. So that it can fit on required image size.
 
 == Changelog ==
+
+= - 1.0.0 - =
+* Updated self review.
+
 
 = - 1.0.0 - =
 * Initial release.
