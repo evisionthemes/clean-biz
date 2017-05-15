@@ -1,5 +1,5 @@
 <?php
-if( ! function_exists( 'clean_biz_excerpt_length' ) ) :
+if( ! function_exists( 'clean_biz_excerpt_length' ) && ! is_admin() ) :
 
     /**
      * Excerpt length

@@ -74,6 +74,7 @@ if ( ! function_exists( 'clean_biz_home_callback_section' ) ) :
         </section>
         <?php
             endwhile;
+            wp_reset_postdata();
         endif;
     }
 }

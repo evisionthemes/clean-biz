@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: CLEAN BIZ\n"
-"POT-Creation-Date: 2017-03-02 10:21+0545\n"
+"POT-Creation-Date: 2017-05-12 14:41+0545\n"
 "PO-Revision-Date: 2015-12-02 14:06+0545\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,8 +22,8 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: 404.php:17 inc/function/inner-head.php:26
-msgid "Oops! That page can&rsquo;t be found."
+#: 404.php:21
+msgid "That page can&rsquo;t be found."
 msgstr ""
 
 #: 404.php:23
@@ -32,11 +32,11 @@ msgid ""
 "below or a search?"
 msgstr ""
 
-#: 404.php:34
+#: 404.php:38
 msgid "Most Used Categories"
 msgstr ""
 
-#: 404.php:52
+#: 404.php:56
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
 msgstr ""
@@ -101,20 +101,20 @@ msgstr ""
 #: assets/frameworks/breadcrumbs/breadcrumbs.php:787
 #: assets/frameworks/breadcrumbs/breadcrumbs.php:814
 #: assets/frameworks/breadcrumbs/breadcrumbs.php:841
-#: assets/frameworks/breadcrumbs/breadcrumbs.php:1176
+#: assets/frameworks/breadcrumbs/breadcrumbs.php:1181
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr ""
 
 #: assets/frameworks/breadcrumbs/breadcrumbs.php:759
 #: assets/frameworks/breadcrumbs/breadcrumbs.php:815
-#: assets/frameworks/breadcrumbs/breadcrumbs.php:1180
+#: assets/frameworks/breadcrumbs/breadcrumbs.php:1185
 msgctxt "monthly archives date format"
 msgid "F"
 msgstr ""
 
 #: assets/frameworks/breadcrumbs/breadcrumbs.php:760
-#: assets/frameworks/breadcrumbs/breadcrumbs.php:1184
+#: assets/frameworks/breadcrumbs/breadcrumbs.php:1189
 msgctxt "daily archives date format"
 msgid "j"
 msgstr ""
@@ -154,19 +154,6 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: front-page.php:26
-#, php-format
-msgid ""
-"All Section are based on page and post. Atleast enable slider or blog "
-"Sections from customizer example for </br> slider: Home/Front Main Slider -> "
-"Setting Options -> Enable. likewise to other sections </br> %s, add widget "
-"as well on <b>Home/Front Page Widget</b>"
-msgstr ""
-
-#: front-page.php:27
-msgid "click here"
-msgstr ""
-
 #: functions.php:58
 msgid "Primary"
 msgstr ""
@@ -175,7 +162,7 @@ msgstr ""
 msgid "Social"
 msgstr ""
 
-#: functions.php:128
+#: functions.php:126
 msgctxt "%s font: on or off"
 msgid "on"
 msgstr ""
@@ -201,17 +188,6 @@ msgid "Select Page For About Section"
 msgstr ""
 
 #: inc/customizer/about-section/about-panel.php:70
-#: inc/customizer/blog-section/blog-panel.php:102
-#: inc/customizer/callback-section/callback-panel.php:62
-#: inc/customizer/callback-section/settings.php:63
-msgid "Number Of Words"
-msgstr ""
-
-#: inc/customizer/about-section/about-panel.php:71
-msgid "Give number of words you wish to be appear on home page about section"
-msgstr ""
-
-#: inc/customizer/about-section/about-panel.php:87
 msgid "About Section Button Text"
 msgstr ""
 
@@ -256,123 +232,23 @@ msgstr ""
 msgid "Sub Title"
 msgstr ""
 
-#: inc/customizer/blog-section/blog-panel.php:72
-msgid "Number Of Blog"
-msgstr ""
-
-#: inc/customizer/blog-section/blog-panel.php:76
-#: inc/customizer/portfolio-section/portfolio-panel.php:77
-#: inc/customizer/service-section/service-options.php:102
-#: inc/customizer/slider-section/slider-settings.php:49
-#: inc/customizer/team-section/team-options.php:98
-#: inc/customizer/testimonial-section/testimonial-options.php:103
-#: inc/customizer/theme-option/footer.php:30
-msgid "1"
-msgstr ""
-
-#: inc/customizer/blog-section/blog-panel.php:77
-#: inc/customizer/portfolio-section/portfolio-panel.php:78
-#: inc/customizer/service-section/service-options.php:103
-#: inc/customizer/slider-section/slider-settings.php:50
-#: inc/customizer/team-section/team-options.php:99
-#: inc/customizer/testimonial-section/testimonial-options.php:104
-#: inc/customizer/theme-option/footer.php:31
-msgid "2"
-msgstr ""
-
-#: inc/customizer/blog-section/blog-panel.php:78
-#: inc/customizer/portfolio-section/portfolio-panel.php:79
-#: inc/customizer/service-section/service-options.php:104
-#: inc/customizer/slider-section/slider-settings.php:51
-#: inc/customizer/team-section/team-options.php:100
-#: inc/customizer/testimonial-section/testimonial-options.php:105
-#: inc/customizer/theme-option/footer.php:32
-msgid "3"
-msgstr ""
-
-#: inc/customizer/blog-section/blog-panel.php:79
-#: inc/customizer/portfolio-section/portfolio-panel.php:80
-#: inc/customizer/service-section/service-options.php:105
-#: inc/customizer/slider-section/slider-settings.php:52
-#: inc/customizer/team-section/team-options.php:101
-#: inc/customizer/testimonial-section/testimonial-options.php:106
-#: inc/customizer/theme-option/footer.php:33
-msgid "4"
-msgstr ""
-
-#: inc/customizer/blog-section/blog-panel.php:80
-#: inc/customizer/portfolio-section/portfolio-panel.php:81
-#: inc/customizer/service-section/service-options.php:106
-#: inc/customizer/slider-section/slider-settings.php:53
-#: inc/customizer/team-section/team-options.php:102
-#: inc/customizer/testimonial-section/testimonial-options.php:107
-msgid "5"
-msgstr ""
-
-#: inc/customizer/blog-section/blog-panel.php:81
-#: inc/customizer/portfolio-section/portfolio-panel.php:82
-#: inc/customizer/service-section/service-options.php:107
-#: inc/customizer/slider-section/slider-settings.php:54
-#: inc/customizer/team-section/team-options.php:103
-#: inc/customizer/testimonial-section/testimonial-options.php:108
-msgid "6"
-msgstr ""
-
-#: inc/customizer/blog-section/blog-panel.php:82
-#: inc/customizer/portfolio-section/portfolio-panel.php:83
-#: inc/customizer/service-section/service-options.php:108
-msgid "7"
-msgstr ""
-
-#: inc/customizer/blog-section/blog-panel.php:83
-#: inc/customizer/portfolio-section/portfolio-panel.php:84
-#: inc/customizer/service-section/service-options.php:109
-msgid "8"
-msgstr ""
-
-#: inc/customizer/blog-section/blog-panel.php:84
-#: inc/customizer/portfolio-section/portfolio-panel.php:85
-msgid "9"
-msgstr ""
-
-#: inc/customizer/blog-section/blog-panel.php:85
-#: inc/customizer/portfolio-section/portfolio-panel.php:86
-msgid "10"
-msgstr ""
-
-#: inc/customizer/blog-section/blog-panel.php:86
-#: inc/customizer/portfolio-section/portfolio-panel.php:87
-msgid "11"
-msgstr ""
-
-#: inc/customizer/blog-section/blog-panel.php:87
-#: inc/customizer/portfolio-section/portfolio-panel.php:88
-msgid "12"
-msgstr ""
-
-#: inc/customizer/blog-section/blog-panel.php:103
-msgid ""
-"Give number of words you wish to be appear on home page blog section sticky "
-"post/ feature post"
-msgstr ""
-
-#: inc/customizer/blog-section/blog-panel.php:119
+#: inc/customizer/blog-section/blog-panel.php:74
 msgid "Select Category For Blog"
 msgstr ""
 
-#: inc/customizer/blog-section/blog-panel.php:120
+#: inc/customizer/blog-section/blog-panel.php:75
 msgid "Blog will only displayed from this category"
 msgstr ""
 
-#: inc/customizer/blog-section/blog-panel.php:134
-#: inc/customizer/service-section/service-options.php:151
-#: inc/customizer/team-section/team-options.php:128
+#: inc/customizer/blog-section/blog-panel.php:89
+#: inc/customizer/service-section/service-options.php:78
+#: inc/customizer/team-section/team-options.php:95
 msgid "Browse All Button Text"
 msgstr ""
 
-#: inc/customizer/blog-section/blog-panel.php:148
-#: inc/customizer/service-section/service-options.php:165
-#: inc/customizer/team-section/team-options.php:142
+#: inc/customizer/blog-section/blog-panel.php:103
+#: inc/customizer/service-section/service-options.php:92
+#: inc/customizer/team-section/team-options.php:109
 msgid "Browse All Button Link"
 msgstr ""
 
@@ -397,6 +273,11 @@ msgstr ""
 
 #: inc/customizer/callback-section/callback-panel.php:47
 msgid "Select Page For Callback Section"
+msgstr ""
+
+#: inc/customizer/callback-section/callback-panel.php:62
+#: inc/customizer/callback-section/settings.php:63
+msgid "Number Of Words"
 msgstr ""
 
 #: inc/customizer/callback-section/callback-panel.php:63
@@ -558,11 +439,56 @@ msgstr ""
 msgid "Number Of Portfolio/s"
 msgstr ""
 
-#: inc/customizer/portfolio-section/portfolio-panel.php:101
+#: inc/customizer/portfolio-section/portfolio-panel.php:77
+#: inc/customizer/slider-section/slider-settings.php:49
+#: inc/customizer/team-section/team-options.php:79
+#: inc/customizer/testimonial-section/testimonial-options.php:103
+#: inc/customizer/theme-option/footer.php:30
+msgid "1"
+msgstr ""
+
+#: inc/customizer/portfolio-section/portfolio-panel.php:78
+#: inc/customizer/slider-section/slider-settings.php:50
+#: inc/customizer/team-section/team-options.php:80
+#: inc/customizer/testimonial-section/testimonial-options.php:104
+#: inc/customizer/theme-option/footer.php:31
+msgid "2"
+msgstr ""
+
+#: inc/customizer/portfolio-section/portfolio-panel.php:79
+#: inc/customizer/slider-section/slider-settings.php:51
+#: inc/customizer/team-section/team-options.php:81
+#: inc/customizer/testimonial-section/testimonial-options.php:105
+#: inc/customizer/theme-option/footer.php:32
+msgid "3"
+msgstr ""
+
+#: inc/customizer/portfolio-section/portfolio-panel.php:80
+#: inc/customizer/team-section/team-options.php:82
+msgid "4"
+msgstr ""
+
+#: inc/customizer/portfolio-section/portfolio-panel.php:81
+msgid "5"
+msgstr ""
+
+#: inc/customizer/portfolio-section/portfolio-panel.php:82
+msgid "6"
+msgstr ""
+
+#: inc/customizer/portfolio-section/portfolio-panel.php:83
+msgid "7"
+msgstr ""
+
+#: inc/customizer/portfolio-section/portfolio-panel.php:84
+msgid "8"
+msgstr ""
+
+#: inc/customizer/portfolio-section/portfolio-panel.php:97
 msgid "Select Category For Portfolio"
 msgstr ""
 
-#: inc/customizer/portfolio-section/portfolio-panel.php:102
+#: inc/customizer/portfolio-section/portfolio-panel.php:98
 msgid "Portfolio will only displayed from this category"
 msgstr ""
 
@@ -582,20 +508,6 @@ msgstr ""
 #: inc/customizer/service-section/font-icon.php:33
 #, php-format
 msgid "Use font awesome icon: Eg: %1$s. %2$sSee more here%3$s"
-msgstr ""
-
-#: inc/customizer/service-section/from-category.php:15
-msgid "Select Service From Category"
-msgstr ""
-
-#: inc/customizer/service-section/from-category.php:16
-msgid ""
-"This option only work when you have selected \"Category\" in \"Service "
-"selection Options\"."
-msgstr ""
-
-#: inc/customizer/service-section/from-category.php:27
-msgid "Select Category For Service"
 msgstr ""
 
 #: inc/customizer/service-section/from-page.php:15
@@ -628,74 +540,8 @@ msgstr ""
 msgid "Enable Service"
 msgstr ""
 
-#: inc/customizer/service-section/service-options.php:79
-msgid "Select Service From"
-msgstr ""
-
-#: inc/customizer/service-section/service-options.php:80
-#: inc/customizer/slider-section/slider-settings.php:69
-#: inc/customizer/team-section/team-options.php:76
-#: inc/customizer/testimonial-section/testimonial-options.php:140
-msgid ""
-"After selecting one of the option, please go back and go to particular "
-"section to add"
-msgstr ""
-
-#: inc/customizer/service-section/service-options.php:84
-#: inc/customizer/slider-section/slider-settings.php:73
-#: inc/customizer/team-section/team-options.php:80
-#: inc/customizer/testimonial-section/testimonial-options.php:144
-msgid "Page"
-msgstr ""
-
-#: inc/customizer/service-section/service-options.php:85
-#: inc/customizer/slider-section/slider-settings.php:74
-#: inc/customizer/team-section/team-options.php:81
-#: inc/customizer/testimonial-section/testimonial-options.php:145
-msgid "Category"
-msgstr ""
-
-#: inc/customizer/service-section/service-options.php:98
-msgid "Number of Service/s"
-msgstr ""
-
-#: inc/customizer/service-section/service-options.php:122
-msgid "Number Of Words in Single Column Content"
-msgstr ""
-
-#: inc/customizer/service-section/service-options.php:123
-#: inc/customizer/slider-section/slider-property.php:35
-#: inc/customizer/testimonial-section/testimonial-options.php:123
-msgid "If you do not have selected from - Custom"
-msgstr ""
-
-#: inc/customizer/service-section/service-options.php:138
-#: inc/customizer/team-section/team-options.php:115
-msgid "Enable Link In Single Column"
-msgstr ""
-
 #: inc/customizer/service-section/service-panel.php:6
 msgid "Service Section"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-from-category.php:15
-#: inc/customizer/testimonial-section/from-category.php:15
-msgid "Select From Category"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-from-category.php:16
-msgid ""
-"This option only work when you have selected \"Category\" in \"settings "
-"Option\"."
-msgstr ""
-
-#: inc/customizer/slider-section/slider-from-category.php:29
-msgid "Select Category For Slider"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-from-category.php:30
-msgid ""
-"If you have oly choosen category then page you need to select one from here"
 msgstr ""
 
 #: inc/customizer/slider-section/slider-from-page.php:15
@@ -727,6 +573,11 @@ msgstr ""
 msgid "Single Slider- Number Of Words"
 msgstr ""
 
+#: inc/customizer/slider-section/slider-property.php:35
+#: inc/customizer/testimonial-section/testimonial-options.php:120
+msgid "If you do not have selected from - Custom"
+msgstr ""
+
 #: inc/customizer/slider-section/slider-property.php:50
 msgid "Slider Mode"
 msgstr ""
@@ -743,68 +594,23 @@ msgstr ""
 msgid "Fade-Out"
 msgstr ""
 
-#: inc/customizer/slider-section/slider-property.php:57
-msgid "Flip-Horz"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-property.php:58
-msgid "Flip-Vert"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-property.php:59
-msgid "scroll-Vert"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-property.php:60
-msgid "Shuffle"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-property.php:61
-msgid "Tile-Slide"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-property.php:62
-msgid "Tile-Blind"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-property.php:63
-msgid "None"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-property.php:76
-msgid "Slide Transition Duration (in Sec)"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-property.php:91
-msgid "Pause Time Duration (in Sec)"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-property.php:92
-msgid "The amount of time (in Sec) between each auto transition"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-property.php:107
+#: inc/customizer/slider-section/slider-property.php:69
 msgid "Enable Arrow"
 msgstr ""
 
-#: inc/customizer/slider-section/slider-property.php:121
+#: inc/customizer/slider-section/slider-property.php:83
 msgid "Enable Pager"
 msgstr ""
 
-#: inc/customizer/slider-section/slider-property.php:135
-#: inc/customizer/testimonial-section/testimonial-options.php:202
-msgid "Enable Autoplay"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-property.php:149
+#: inc/customizer/slider-section/slider-property.php:97
 msgid "Enable Title"
 msgstr ""
 
-#: inc/customizer/slider-section/slider-property.php:163
+#: inc/customizer/slider-section/slider-property.php:111
 msgid "Enable Caption"
 msgstr ""
 
-#: inc/customizer/slider-section/slider-property.php:178
+#: inc/customizer/slider-section/slider-property.php:126
 msgid "Slider Section Button Text"
 msgstr ""
 
@@ -818,24 +624,6 @@ msgstr ""
 
 #: inc/customizer/slider-section/slider-settings.php:45
 msgid "Number Of Slider"
-msgstr ""
-
-#: inc/customizer/slider-section/slider-settings.php:68
-msgid "Select Slider From"
-msgstr ""
-
-#: inc/customizer/team-section/from-category.php:15
-msgid "Select Team From Category"
-msgstr ""
-
-#: inc/customizer/team-section/from-category.php:16
-msgid ""
-"This option only work when you have selected \"Category\" in \"team "
-"selection Options\"."
-msgstr ""
-
-#: inc/customizer/team-section/from-category.php:27
-msgid "Select Category For team"
 msgstr ""
 
 #: inc/customizer/team-section/from-page.php:15
@@ -870,25 +658,11 @@ msgid "Enable Team"
 msgstr ""
 
 #: inc/customizer/team-section/team-options.php:75
-msgid "Select Team From"
-msgstr ""
-
-#: inc/customizer/team-section/team-options.php:94
 msgid "Number Of Team/s"
 msgstr ""
 
 #: inc/customizer/team-section/team-panel.php:6
 msgid "Team Section"
-msgstr ""
-
-#: inc/customizer/testimonial-section/from-category.php:16
-msgid ""
-"This option only work when you have selected \"Category\" in \"Settings "
-"Options\"."
-msgstr ""
-
-#: inc/customizer/testimonial-section/from-category.php:27
-msgid "Select Category For Testimonial"
 msgstr ""
 
 #: inc/customizer/testimonial-section/from-page.php:29
@@ -924,28 +698,8 @@ msgstr ""
 msgid "Choose number of Testimonial to be displayed"
 msgstr ""
 
-#: inc/customizer/testimonial-section/testimonial-options.php:122
+#: inc/customizer/testimonial-section/testimonial-options.php:119
 msgid "Single Testimonial- Number Of Words"
-msgstr ""
-
-#: inc/customizer/testimonial-section/testimonial-options.php:139
-msgid "Select Testimonial From"
-msgstr ""
-
-#: inc/customizer/testimonial-section/testimonial-options.php:158
-msgid "Slide Transition Duration (in ms)"
-msgstr ""
-
-#: inc/customizer/testimonial-section/testimonial-options.php:173
-msgid "Pause Time Duration (in ms)"
-msgstr ""
-
-#: inc/customizer/testimonial-section/testimonial-options.php:174
-msgid "The amount of time (in ms) between each auto transition"
-msgstr ""
-
-#: inc/customizer/testimonial-section/testimonial-options.php:188
-msgid "Enable Control"
 msgstr ""
 
 #: inc/customizer/testimonial-section/testimonial-panel.php:6
@@ -984,86 +738,93 @@ msgstr ""
 msgid "Disable footer sidebar area"
 msgstr ""
 
-#: inc/customizer/theme-option/footer.php:47
+#: inc/customizer/theme-option/footer.php:46
 msgid "Copyright Text"
 msgstr ""
 
-#: inc/customizer/theme-option/footer.php:60
-msgid "Enable Footer Credit"
-msgstr ""
-
-#: inc/customizer/theme-option/layout-options.php:17
+#: inc/customizer/theme-option/layout-options.php:18
 msgid "Layout Options"
 msgstr ""
 
 #: inc/customizer/theme-option/layout-options.php:29
-msgid "Default Layout"
+msgid "Enable Selected Front Page"
 msgstr ""
 
 #: inc/customizer/theme-option/layout-options.php:30
 msgid ""
+"If you disable this the selected page will be disappera form the home page "
+"and other section from customizer will reamin as it is"
+msgstr ""
+
+#: inc/customizer/theme-option/layout-options.php:43
+msgid "Default Layout"
+msgstr ""
+
+#: inc/customizer/theme-option/layout-options.php:44
+#: inc/customizer/theme-option/layout-options.php:65
+msgid ""
 "Please note that this section can be overridden for individual page/posts"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:34
+#: inc/customizer/theme-option/layout-options.php:48
 msgid "Content - Primary Sidebar"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:35
+#: inc/customizer/theme-option/layout-options.php:49
 msgid "Primary Sidebar - Content"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:36
+#: inc/customizer/theme-option/layout-options.php:50
 msgid "No Sidebar"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:50
+#: inc/customizer/theme-option/layout-options.php:64
 msgid "Alignment Of Image In Single Post/Page"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:54
+#: inc/customizer/theme-option/layout-options.php:69
 #: inc/post-meta/layout-meta.php:52
 msgid "Full"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:55
+#: inc/customizer/theme-option/layout-options.php:70
 msgid "Right"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:56
+#: inc/customizer/theme-option/layout-options.php:71
 #: inc/post-meta/layout-meta.php:60
 msgid "Left"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:57
+#: inc/customizer/theme-option/layout-options.php:72
 msgid "No image"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:60
+#: inc/customizer/theme-option/layout-options.php:75
 msgid "Please note that this setting can be override from individual post/page"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:70
+#: inc/customizer/theme-option/layout-options.php:85
 msgid "Excerpt Length (in words)"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:83
+#: inc/customizer/theme-option/layout-options.php:98
 msgid "Archive Layout"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:87
+#: inc/customizer/theme-option/layout-options.php:102
 msgid "Excerpt Only"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:88
+#: inc/customizer/theme-option/layout-options.php:103
 msgid "Thumbnail and Excerpt"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:89
+#: inc/customizer/theme-option/layout-options.php:104
 msgid "Full Post"
 msgstr ""
 
-#: inc/customizer/theme-option/layout-options.php:90
+#: inc/customizer/theme-option/layout-options.php:105
 msgid "Thumbnail and Full Post"
 msgstr ""
 
@@ -1084,11 +845,6 @@ msgstr ""
 #: inc/frameworks/evision-customizer/inc/custom-control/evision-tags-dropdown-control.php:46
 #: inc/frameworks/evision-customizer/inc/custom-control/evision-user-dropdown-control.php:43
 msgid "Select"
-msgstr ""
-
-#: inc/function/inner-head.php:33 search.php:19
-#, php-format
-msgid "Search Results for: %s"
 msgstr ""
 
 #: inc/hooks/footer.php:112
@@ -1179,6 +935,10 @@ msgctxt "post author"
 msgid "By %s"
 msgstr ""
 
+#: inc/template-tags.php:52
+msgid ", "
+msgstr ""
+
 #: inc/template-tags.php:54
 #, php-format
 msgid "Posted in %1$s"
@@ -1204,6 +964,11 @@ msgstr ""
 #: inc/template-tags.php:72 template-parts/content-page.php:51
 #, php-format
 msgid "Edit %s"
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
 msgstr ""
 
 #: single.php:22
@@ -1238,7 +1003,7 @@ msgid ""
 "different keywords."
 msgstr ""
 
-#: template-parts/content-none.php:31
+#: template-parts/content-none.php:37
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
@@ -1254,95 +1019,6 @@ msgstr ""
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: updater/theme-updater.php:29
-msgid "Theme License"
-msgstr ""
-
-#: updater/theme-updater.php:30
-msgid "Enter your theme license key."
-msgstr ""
-
-#: updater/theme-updater.php:31
-msgid "License Key"
-msgstr ""
-
-#: updater/theme-updater.php:32
-msgid "License Action"
-msgstr ""
-
-#: updater/theme-updater.php:33
-msgid "Deactivate License"
-msgstr ""
-
-#: updater/theme-updater.php:34
-msgid "Activate License"
-msgstr ""
-
-#: updater/theme-updater.php:35 updater/theme-updater.php:47
-msgid "License status is unknown."
-msgstr ""
-
-#: updater/theme-updater.php:36
-msgid "Renew?"
-msgstr ""
-
-#: updater/theme-updater.php:37
-msgid "unlimited"
-msgstr ""
-
-#: updater/theme-updater.php:38
-msgid "License key is active."
-msgstr ""
-
-#: updater/theme-updater.php:39
-#, php-format
-msgid "Expires %s."
-msgstr ""
-
-#: updater/theme-updater.php:40
-#, php-format
-msgid "You have %1$s / %2$s sites activated."
-msgstr ""
-
-#: updater/theme-updater.php:41
-#, php-format
-msgid "License key expired %s."
-msgstr ""
-
-#: updater/theme-updater.php:42
-msgid "License key has expired."
-msgstr ""
-
-#: updater/theme-updater.php:43
-msgid "License keys do not match."
-msgstr ""
-
-#: updater/theme-updater.php:44
-msgid "License is inactive."
-msgstr ""
-
-#: updater/theme-updater.php:45
-msgid "License key is disabled."
-msgstr ""
-
-#: updater/theme-updater.php:46
-msgid "Site is inactive."
-msgstr ""
-
-#: updater/theme-updater.php:48
-msgid ""
-"Updating this theme will lose any customizations you have made. 'Cancel' to "
-"stop, 'OK' to update."
-msgstr ""
-
-#: updater/theme-updater.php:49
-#, php-format
-msgid ""
-"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
-"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</"
-"a>."
-msgstr ""
-
 #. Theme Name of the plugin/theme
 msgid "Clean Biz"
 msgstr ""
@@ -1353,11 +1029,11 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Clean Biz, a dynamic, fast responsive business WordPress theme. Whether "
-"you require an eCommerce, Business, Woo-commerce, multilingual shop, "
-"responsive layout, retina ready. If you want to build your website within a "
-"few moments, choose this multipurpose corporate theme. It suits your "
-"business. It supports most of the popular themes from WordPress repository. "
+"Clean Biz, a dynamic, fast responsive business WordPress theme. Whether you "
+"require an eCommerce, Business, Woo-commerce, multilingual shop, responsive "
+"layout, retina ready. If you want to build your website within a few "
+"moments, choose this multipurpose corporate theme. It suits your business. "
+"It supports most of the popular themes from WordPress repository. "
 "Compatiable with modern browser like IE 9+, Opera, Firefox, Chrome, Safari "
 "including fit in all devices like iPhone, iPad, Android, Tablet, Mac, "
 "Desktop etc. This theme is translation ready. Check out Theme Instructions "
