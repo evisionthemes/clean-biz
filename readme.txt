@@ -7,7 +7,7 @@ Tags: full-width-template, left-sidebar, right-sidebar, one-column, grid-layout,
 
 Requires at least: 4.0
 Tested up to: 4.7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -101,6 +101,9 @@ Note:
 	If your Image is not align properly, then you can try regenerate thumbnails. So that it can fit on required image size.
 
 == Changelog ==
+
+= - 1.0.3 - =
+* Updated fixing mentioned by the reviewer.
 
 = - 1.0.2 - =
 * Updated change mentioned by the reviewer.

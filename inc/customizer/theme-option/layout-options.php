@@ -72,7 +72,6 @@ $clean_biz_settings_controls['clean-biz-single-post-image-align'] =
                 'no-image' => __( 'No image', 'clean-biz' )
             ),
             'priority'              => 40,
-            'description'           =>  __( 'Please note that this setting can be override from individual post/page', 'clean-biz' ),
         )
     );
 

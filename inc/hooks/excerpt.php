@@ -15,9 +15,9 @@ if( ! function_exists( 'clean_biz_excerpt_length' ) && ! is_admin() ) :
         if ( empty( $excerpt_length) ) {
             $excerpt_length = $length;
         }
-        return intval( $excerpt_length );
+        return absint( $excerpt_length );
 
     }
 
-endif;
 add_filter( 'excerpt_length', 'clean_biz_excerpt_length', 999 );
+endif;
