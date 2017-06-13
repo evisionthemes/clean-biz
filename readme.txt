@@ -6,8 +6,8 @@ Contributors: evisiontheme
 Tags: full-width-template, left-sidebar, right-sidebar, one-column, grid-layout, custom-header, sticky-post, theme-options, threaded-comments, translation-ready, two-columns, custom-background, custom-colors, custom-menu, featured-images, footer-widgets, custom-logo, e-commerce, portfolio
 
 Requires at least: 4.0
-Tested up to: 4.7.4
-Stable tag: 1.0.3
+Tested up to: 4.8
+Stable tag: 1.0.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -16,7 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Clean Biz, a dynamic, fast responsive business WordPress theme. Whether you require an eCommerce, Business, Woo-commerce, multilingual shop, responsive layout, retina ready. If you want to build your website within a few moments, choose this multipurpose corporate theme. It suits your business. It supports most of the popular themes from WordPress repository. Compatiable with modern browser like IE 9+, Opera, Firefox, Chrome, Safari including fit in all devices like iPhone, iPad, Android, Tablet, Mac, Desktop etc. This theme is translation ready. Check out Theme Instructions at http://doc.evisionthemes.com/clean-biz and Demo at demo.evisionthemes.com/clean-biz
 == Copyright ==
 
-clean-biz WordPress Theme, Copyright 2014-2015 WordPress.org
+clean-biz WordPress Theme, Copyright @ eVision Themes
 clean-biz is distributed under the terms of the GNU GPL
 
 
@@ -101,6 +101,9 @@ Note:
 	If your Image is not align properly, then you can try regenerate thumbnails. So that it can fit on required image size.
 
 == Changelog ==
+
+= - 1.0.4 - =
+* Updated fixing mentioned by the reviewer.
 
 = - 1.0.3 - =
 * Updated fixing mentioned by the reviewer.

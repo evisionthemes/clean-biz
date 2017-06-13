@@ -202,7 +202,7 @@ function clean_biz_custom_scripts() {
 	global $clean_biz_customizer_all_values;
 		wp_register_script('clean-biz-custom-js', get_template_directory_uri() . '/assets/js/evision-custom.js', array('jquery'), '', true);
 		wp_enqueue_script( "clean-biz-custom-js" );
-	    wp_localize_script( "clean-biz-custom-js", "customizer_value", $clean_biz_customizer_all_values );
+	    wp_localize_script( "clean-biz-custom-js", "clean_biz_customizer_value", $clean_biz_customizer_all_values );
 	}
 add_action( "wp_enqueue_scripts", "clean_biz_custom_scripts" );
 

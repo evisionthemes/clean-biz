@@ -2,7 +2,7 @@
 jQuery(window).load(function(){
     //site loader
     jQuery('#wraploader').hide(); 
-    var enabledSlider = customizer_value['clean-biz-feature-slider-enable'];
+    var enabledSlider = clean_biz_customizer_value['clean-biz-feature-slider-enable'];
     if ((jQuery('.home').length > 0) && (enabledSlider == 1) ){
         jQuery('.wrapper-site-identity').addClass('transparent-nav');
     }
@@ -113,7 +113,7 @@ jQuery(document).ready(function ($) {
                 selectedHeader.addClass('fixed-nav');
                 selectedHeader.removeClass('transparent-nav');
           } else {
-              var enabledSlider = customizer_value['clean-biz-feature-slider-enable'];
+              var enabledSlider = clean_biz_customizer_value['clean-biz-feature-slider-enable'];
               if ((jQuery('.home').length > 0) && (enabledSlider == 1) ){
                   selectedHeader.addClass('transparent-nav');
               }
