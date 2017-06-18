@@ -39,8 +39,6 @@ require get_template_directory() . '/inc/hooks/header.php';
 
 require get_template_directory() . '/inc/hooks/footer.php';
 
-require get_template_directory() . '/inc/hooks/homepage-widget.php';
-
 require get_template_directory() . '/inc/hooks/homepage-slider.php';
 
 require get_template_directory() . '/inc/hooks/homepage-service.php';
