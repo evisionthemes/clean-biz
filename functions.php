@@ -246,3 +246,6 @@ if ( ! function_exists( 'clean_biz_simple_breadcrumb' ) ) :
 	}
 endif;
 
+
+/*update to pro link*/
+require_once( trailingslashit( get_template_directory() ) . 'trt-customize-pro/clean-biz/class-customize.php' );
