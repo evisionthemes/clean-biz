@@ -15,16 +15,6 @@ function clean_biz_widgets_init() {
         'after_title'   => '</h2>',
     ) );
 
-    register_sidebar( array(
-        'name'          => esc_html__( 'Home/Front Page Full-Width Widget', 'clean-biz' ),
-        'id'            => 'homepage-main-section',
-        'description'   => '',
-        'before_widget' => '<section id="%1$s" class="widget %2$s">',
-        'after_widget'  => '</section>',
-        'before_title'  => '<h2 class="widget-title">',
-        'after_title'   => '</h2>',
-    ) );
-
     $clean_biz_get_all_options = clean_biz_get_all_options(1);
     $clean_biz_footer_widgets_number = $clean_biz_get_all_options['clean-biz-footer-sidebar-number'];
 
