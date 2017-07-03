@@ -71,14 +71,7 @@ if ( ! function_exists( 'clean_biz_home_about' ) ) :
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <svg width='0' height='0'>
-                              <defs>
-                                <clipPath id="clipping" clipPathUnits="objectBoundingBox">
-                                  <polygon points="0 0, 0.5 0, 0.5 100, 0 100" />
-                                </clipPath>
-                              </defs>
-                            </svg>
+                            </div>                         
                         </div>
                     </section>
                 <?php endwhile;
