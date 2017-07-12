@@ -7,7 +7,7 @@ Tags: full-width-template, left-sidebar, right-sidebar, one-column, grid-layout,
 
 Requires at least: 4.0
 Tested up to: 4.8
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -101,6 +101,9 @@ Note:
 	If your Image is not align properly, then you can try regenerate thumbnails. So that it can fit on required image size.
 
 == Changelog ==
+
+= - 1.0.6 - =
+* Solved cutoff issue in mac safari
 
 = - 1.0.5 - =
 * Update to pro button added.
