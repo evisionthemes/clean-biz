@@ -143,10 +143,10 @@ jQuery(document).ready(function ($) {
       var hheight = selectedHeader.outerHeight(),
           bcumbheight = jQuery('#breadcrumb').outerHeight();
 
-      jQuery('.wrap-breadcrumb').css({'top' : hheight });
+      jQuery('.wrap-breadcrumb').css({'top' : hheight + -32});
       if( jQuery(window).width() > 767) {
         if(jQuery('body').hasClass('home')){
-          jQuery('#content').css({'padding-top' : hheight});
+          // jQuery('#content').css({'padding-top' : hheight});
         } else{
           jQuery('#content').css({'padding-top' : hheight + bcumbheight + 30});
         }
