@@ -81,7 +81,7 @@ Font Icons:
 * Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License) 
 
 == Image used in screenshot ==
-https://pixabay.com/en/startup-meeting-brainstorming-594090/ by StartupStockPhotos License: CC0
+https://pixabay.com/en/children-win-success-video-game-593313/ License: CC0
 
 == Installation ==
 
