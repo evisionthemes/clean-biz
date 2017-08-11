@@ -146,7 +146,7 @@ jQuery(document).ready(function ($) {
       jQuery('.wrap-breadcrumb').css({'top' : hheight + -32});
       if( jQuery(window).width() > 767) {
         if(jQuery('body').hasClass('home')){
-          // jQuery('#content').css({'padding-top' : hheight});
+          jQuery('#content').css({'padding-top' : hheight + bcumbheight + 30});
         } else{
           jQuery('#content').css({'padding-top' : hheight + bcumbheight + 30});
         }
