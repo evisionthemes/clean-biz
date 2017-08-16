@@ -19,8 +19,13 @@ else{
 	do_action( 'clean_biz_action_front_page' );	 ?>
 	<?php  
 	$clean_biz_selected_page = absint($clean_biz_customizer_all_values['clean-biz-enable-selected-page']);
-	if ($clean_biz_selected_page == 1) { ?>
-		    <div class="container">
+	if ($clean_biz_selected_page == 1) { 
+		if( (1 != $clean_biz_customizer_all_values['clean-biz-home-about-enable']) && ( 1 != $clean_biz_customizer_all_values['clean-biz-home-service-enable'] ) && ( 1 != $clean_biz_customizer_all_values['clean-biz-feature-slider-enable'] )){
+            $div_class_container = 'not-enabled';
+        } else{
+            $div_class_container = 'enabled';
+        	}?>
+		    <div class="container <?php echo esc_attr($div_class_container); ?>">
 				<div id="primary" class="content-area col-sm-8">
 				    <main id="main" class="site-main" role="main">
 
