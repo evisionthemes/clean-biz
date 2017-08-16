@@ -197,7 +197,7 @@ jQuery(document).ready(function ($) {
         } 
         var breadcrumHight = $('#breadcrumb').outerHeight(); 
           if (jQuery('#breadcrumb').length > 0){
-            $('#breadcrumb').css({ 'marginTop': headerHight} ); 
+            $('#breadcrumb').css({ 'marginTop': '0'} ); 
           }
           else{
             $('#content').css({ 'marginTop': headerHight } ); 
