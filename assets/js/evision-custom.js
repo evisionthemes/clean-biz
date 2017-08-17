@@ -211,6 +211,7 @@ jQuery(document).ready(function ($) {
           }
           else{
             $('#content').css({ 'marginTop': headerHight } ); 
+             $('body.home #content').css({ 'marginTop': '0' } );
           }
         }else{
            if (jQuery('#breadcrumb').length > 0){
