@@ -9162,5 +9162,12 @@ h1.entry-title:before {
   display: none;
   visibility: hidden;
 }
+
+/*==== update and fixing!!! ===*/
+/*=========================*/
+.home div#primary,
+.home aside#secondary {
+    padding-top: 33px;
+}
 /*==== HAPPY STYLING!!! ===*/
 /*=========================*/

@@ -130,11 +130,12 @@ jQuery(document).ready(function ($) {
           jQuery('#gotop').css({'bottom': 25});
         } else {
           jQuery('#gotop').css({'bottom': -100});
-        }
-
-      
+        }      
 
     });
+
+   // add class for first section of body 
+    $('body.home section:first').addClass('first-section');
 
     var hheight = selectedHeader.outerHeight(),
         bcumbheight = jQuery('#breadcrumb').outerHeight();
@@ -143,10 +144,19 @@ jQuery(document).ready(function ($) {
       var hheight = selectedHeader.outerHeight(),
           bcumbheight = jQuery('#breadcrumb').outerHeight();
 
-      jQuery('.wrap-breadcrumb').css({'top' : hheight + -32});
+      jQuery('.wrap-breadcrumb').css({'top' : hheight});
+       jQuery('body.logged-in .wrap-breadcrumb').css({'top' : hheight -32});
       if( jQuery(window).width() > 767) {
         if(jQuery('body').hasClass('home')){
+           // if no any section are enable
           jQuery('body.home.blog #content').css({'padding-top' : hheight + bcumbheight + 30});
+          // if slider section is not enable
+          jQuery('body.home .first-section').css({'padding-top' : hheight});
+          jQuery('body.home.logged-in .first-section').css({'padding-top' : hheight -32});
+          // if slider section is enable
+          jQuery('section.wrapper-slider-section.first-section').css({'padding-top' : '0'});
+          //if blog page is home page 
+          jQuery('body.home.blog .first-section').css({'padding-top' : '0'});
         } else{
           jQuery('#content').css({'padding-top' : hheight + bcumbheight + 30});
         }
