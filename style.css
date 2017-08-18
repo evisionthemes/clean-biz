@@ -9165,3 +9165,10 @@ h1.entry-title:before {
 
 /*==== HAPPY STYLING!!! ===*/
 /*=========================*/
+
+/*==== fixing ===*/
+/*=========================*/
+.container.not-enabled,
+.container.enabled{
+  padding-top: 40px;
+}
