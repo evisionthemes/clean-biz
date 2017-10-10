@@ -87,7 +87,7 @@ jQuery(document).ready(function ($) {
     // back to top animation
 
     $('#gotop').click(function(){
-      $('body').animate({scrollTop: '0px'},1000);
+      $('html, body').animate({scrollTop: '0px'},1000);
     });
 
      jQuery('#go-bottom a').click(function(e){
@@ -106,8 +106,7 @@ jQuery(document).ready(function ($) {
       
      
     jQuery(window).scroll(function() {    
-          var scrollTopPosition = jQuery('body').scrollTop();
-
+        var scrollTopPosition = $(this).scrollTop();
         if ($('.home').length > 0) {
           if( scrollTopPosition > 100 ){
                 selectedHeader.addClass('fixed-nav');
