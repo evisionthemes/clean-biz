@@ -5,6 +5,12 @@ global $clean_biz_settings_controls;
 global $clean_biz_repeated_settings_controls;
 global $clean_biz_customizer_defaults;
 
+/*defaults values*/
+$clean_biz_customizer_defaults['clean-biz-font-family-Primary'] = 'Raleway:400,300,500,600,700,900';
+$clean_biz_customizer_defaults['clean-biz-font-family-site-identity'] = 'Noto+Serif:400,400i,700,700i';
+$clean_biz_customizer_defaults['clean-biz-font-family-title'] = 'Montserrat:400,700';
+
+
 /*font array*/
 global $clean_biz_google_fonts;
 $clean_biz_google_fonts = array(
@@ -135,11 +141,6 @@ $clean_biz_google_fonts = array(
     'Yanone+Kaffeesatz:400,300,700' => 'Yanone Kaffeesatz',
     'Noto+Serif:400,400i,700,700i' => 'Noto Serif',
 );
-
-/*defaults values*/
-$clean_biz_customizer_defaults['clean-biz-font-family-Primary'] = 'Raleway:400,300,500,600,700,900';
-$clean_biz_customizer_defaults['clean-biz-font-family-site-identity'] = 'Noto+Serif:400,400i,700,700i';
-$clean_biz_customizer_defaults['clean-biz-font-family-title'] = 'Montserrat:400,700';
 
 
 /*section*/

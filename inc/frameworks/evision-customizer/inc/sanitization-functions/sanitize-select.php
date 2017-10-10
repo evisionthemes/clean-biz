@@ -19,7 +19,7 @@ if ( ! function_exists( 'evision_customizer_sanitize_select' ) ) :
     function evision_customizer_sanitize_select( $input, $setting ) {
 
         // Ensure input is a slug.
-        $input = sanitize_key( $input );
+        $input = esc_attr( $input );
 
         // Get list of choices from the control associated with the setting.
         $choices = $setting->manager->get_control( $setting->id )->choices;
