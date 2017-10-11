@@ -8289,7 +8289,8 @@ body.single .site-main .entry-meta {
   overflow: hidden;
 }
 
-.team-item .team-thumb img {
+.team-item .team-thumb img,
+section.wrapper.wrapper-portfolio.wrapper-port img {
     vertical-align: top;
     -webkit-transition: 0.3s transform ease;
     -moz-transition: 0.3s transform ease;
