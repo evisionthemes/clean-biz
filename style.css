@@ -8641,7 +8641,7 @@ h1.entry-title {
   padding-top: 15px;
   padding-bottom: 15px;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 24px;
   text-transform: uppercase;
 }
 
@@ -9172,4 +9172,9 @@ h1.entry-title:before {
 .container.not-enabled,
 .container.enabled{
   padding-top: 40px;
+}
+
+.pnf-widget.pull-right {
+    padding-right: 0;
+    float: right;
 }
