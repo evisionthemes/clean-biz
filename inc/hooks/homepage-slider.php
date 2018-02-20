@@ -203,17 +203,7 @@ if ( ! function_exists( 'clean_biz_featured_home_slider' ) ) :
                 }
                 ?>
             </div>
-            <div class="cycle-pager" id="slide-pager"></div>
-            <?php if( 1 == $clean_biz_customizer_all_values['clean-biz-home-service-enable'] ){ ?>
-                <div id="go-bottom">
-                    <a href="#features">
-                        <svg width="60px" height="80px" viewBox="0 0 50 80" xml:space="preserve">
-                        <polyline fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="
-                        45.63,75.8 0.375,38.087 45.63,0.375 "/>
-                      </svg>
-                    </a>
-                </div>
-            <?php } ?>
+            <div class="cycle-pager" id="slide-pager"></div>            
         </div>
     </section>
     <?php
