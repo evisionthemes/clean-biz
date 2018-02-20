@@ -97,7 +97,6 @@ if( ! function_exists( 'clean_biz_inline_style' ) ) :
             input[type="button"]:visited,
             input[type="reset"]:visited,
             input[type="submit"]:visited,
-            .wrapper-port .single-thumb .content-area,
             .wrapper-testimonial .controls a:hover,
             .wrapper-testimonial .controls a:focus,
             .wrapper-testimonial .controls a:active,

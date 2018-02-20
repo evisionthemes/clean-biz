@@ -30,7 +30,7 @@ $clean_biz_repeated_settings_controls['clean-biz-home-service-font-icon'] =
                 'section'               => 'clean-biz-home-service-font-icon',
                 'type'                  => 'text',
                 'priority'              => 5,
-                'description'           => sprintf( __( 'Use font awesome icon: Eg: %1$s. %2$sSee more here%3$s', 'clean-biz' ), 'fa-magic','<a href="'.esc_url('http://fontawesome.io/cheatsheet/').'" target="_blank">','</a>' ),
+                'description'           => sprintf( __( 'Use font awesome icon: Eg: %1$s. %2$sSee more here%3$s', 'clean-biz' ), 'fa-magic','<a href="'.esc_url('https://fontawesome.com/icons').'" target="_blank">','</a>' ),
             )
         ),
             'clean-biz-home-service-font-icon-divider' => array(
