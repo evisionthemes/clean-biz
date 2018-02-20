@@ -164,7 +164,9 @@ if( ! function_exists( 'clean_biz_inline_style' ) ) :
             .page article.hentry .widget-title,
             .single article.hentry .widget-title,
             body.woocommerce article.hentry .widget-title,
-            body.woocommerce .site-main .widget-title{
+            body.woocommerce .site-main .widget-title,
+            .wrapper-slider .slide-item .btn-holder .button,
+            .wrapper-callback .btn-holder .button{
               border-color: <?php echo esc_attr( $clean_biz_primary_color_option );?>; /*#2e5077*/
             }
 

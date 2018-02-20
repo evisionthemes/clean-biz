@@ -57,8 +57,8 @@ if ( ! function_exists( 'clean_biz_home_portfolio' ) ) :
                                         <img src="<?php echo esc_url($url); ?>">
                                         <div class="content-area">
                                             <h2><?php the_title(); ?></h2>
-                                            <?php $archive_year = get_the_time('M j, Y'); ?>
-                                            <a href="<?php echo esc_url(get_year_link($archive_year)); ?>" class="icon"><div class="date"><?php echo esc_html($archive_year);?></div></a>
+                                           <!--  <?php $archive_year = get_the_time('M j, Y'); ?>
+                                            <a href="<?php echo esc_url(get_year_link($archive_year)); ?>" class="icon"><div class="date"><?php echo esc_html($archive_year);?></div></a> -->
                                         </div>
                                     </a>
                                 </div>

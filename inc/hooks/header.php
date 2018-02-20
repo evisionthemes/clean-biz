@@ -196,6 +196,7 @@ function clean_biz_header_nav() {
                 <div class="row">
                     <div class="col-xs-8 col-sm-3 col-md-4">
                         <div class="site-branding">
+                            <?php clean_biz_the_custom_logo(); ?>
                             <?php
                                     if ( is_front_page() && is_home() ) : ?>
                                         <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -209,7 +210,6 @@ function clean_biz_header_nav() {
                                         <p class="site-description"><?php echo esc_html($description); /* WPCS: xss ok. */ ?></p>
                                     <?php
                                     endif; ?>
-                            <?php clean_biz_the_custom_logo(); ?>
                         </div><!-- .site-branding -->
                     </div>
                     <div class="col-xs-4 col-sm-9 col-md-8">
