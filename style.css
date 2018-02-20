@@ -7708,6 +7708,8 @@ body.single .site-main .entry-meta {
   margin-left: 8px;
   margin-right: 8px;
   text-align: center;
+  background: transparent;
+  border: 1px solid;
 }
 
 .wrapper-slider .controls {

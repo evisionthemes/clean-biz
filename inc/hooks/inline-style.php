@@ -167,7 +167,7 @@ if( ! function_exists( 'clean_biz_inline_style' ) ) :
             body.woocommerce .site-main .widget-title,
             .wrapper-slider .slide-item .btn-holder .button,
             .wrapper-callback .btn-holder .button{
-              border-color: <?php echo esc_attr( $clean_biz_primary_color_option );?>; /*#2e5077*/
+              border-color: <?php echo esc_attr( $clean_biz_primary_color_option );?> !important; /*#2e5077*/
             }
 
             @media screen and (min-width: 768px){
@@ -384,8 +384,10 @@ if( ! function_exists( 'clean_biz_inline_style' ) ) :
             .nav-links .nav-next a:active span,
             .wrapper-callback .btn-holder .button:hover,
             .wrapper-callback .btn-holder .button:focus,
-            .wrapper-callback .btn-holder .button:active {
-                border-color: <?php echo esc_attr( $clean_biz_secondary_color_option );?>;
+            .wrapper-callback .btn-holder .button:active,
+            .wrapper-slider .slide-item .btn-holder .button:hover,
+            .wrapper-callback .btn-holder .button:hover {
+                border-color: <?php echo esc_attr( $clean_biz_secondary_color_option );?> !important;
             }
 
         <?php
