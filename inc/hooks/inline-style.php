@@ -400,8 +400,7 @@ if( ! function_exists( 'clean_biz_inline_style' ) ) :
           .widget .widgettitle, .widget .widget-title,
           .form-allowed-tags code,
           .small-right-post-content-list .entry-title a,
-          .sb-round-thumb-widget .entry-title a,
-          .site-header .wrapper-site-identity .site-description,
+          .sb-round-thumb-widget .entry-title a,          
           .wrapper-slider .slide-item .banner-title a,
           .wrapper-slider .slide-item .banner-title a:visited,
           .wrapper-callback h2 {
@@ -413,7 +412,7 @@ if( ! function_exists( 'clean_biz_inline_style' ) ) :
         if( !empty($clean_biz_font_family_site_identity_option) ){
         ?> 
           /*Site identity / logo & tagline*/
-          .site-header .wrapper-site-identity .site-title a {
+          .site-header .wrapper-site-identity .site-title a,.site-description,.site-header .wrapper-site-identity .site-description {
           font-family: '<?php echo esc_attr( $clean_biz_font_family_site_identity_option ); ?>', 'sans-serif';
           }
         <?php
