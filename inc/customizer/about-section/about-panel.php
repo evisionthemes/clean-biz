@@ -34,6 +34,23 @@ $clean_biz_settings_controls['clean-biz-home-about-enable'] =
         )
     );
 
+// single number word
+$clean_biz_settings_controls['clean-biz-home-about-single-words'] =
+array(
+    'setting' =>     array(
+        'default'              => $clean_biz_customizer_defaults['clean-biz-home-about-single-words']
+    ),
+    'control' => array(
+        'label'                 =>  __( 'Select single number word', 'clean-biz' ),
+        'section'               => 'clean-biz-home-about-section-settings',
+        'type'                  => 'number',
+        'priority'              => 20,
+        'active_callback'       => ''
+    )
+);
+
+
+
 /*creating setting control for clean-biz-home-about-page start*/
 $clean_biz_repeated_settings_controls['clean-biz-home-about-page'] =
     array(

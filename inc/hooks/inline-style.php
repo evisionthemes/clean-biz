@@ -31,9 +31,9 @@ if( ! function_exists( 'clean_biz_inline_style' ) ) :
         <?php 
         if( !empty($clean_biz_background_color) ){
         ?>
-          .top-header,
-          .site-header{
-            background-color: #<?php echo esc_attr( $clean_biz_background_color );?>;
+          
+          body{
+            background-color: #<?php echo esc_html( $clean_biz_background_color );?>;
           }
         <?php
         } 
