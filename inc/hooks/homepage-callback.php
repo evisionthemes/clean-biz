@@ -56,7 +56,7 @@ if ( ! function_exists( 'clean_biz_home_callback_section' ) ) :
                                 } ?>
                                 <?php echo wp_kses_post($clean_biz_home_callback_content); ?>
                             </div>
-                            <?php if( 1 == $clean_biz_customizer_all_values['clean-biz-home-callback-remove-button'] ){ ?>
+                            <?php if( 1 == $clean_biz_customizer_all_values['clean-biz-home-callback-remove-button']  && !empty($clean_biz_home_callback_button)){ ?>
                                 <div class="btn-holder"><a href="<?php 
                                     if (empty($clean_biz_home_callback_button_link)) {
                                         the_permalink();

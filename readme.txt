@@ -7,13 +7,13 @@ Tags: full-width-template, left-sidebar, right-sidebar, one-column, grid-layout,
 
 Requires at least: 4.0
 Tested up to: 4.9
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Clean Biz, a dynamic, fast responsive business WordPress theme. Whether you require an eCommerce, Business, Woo-commerce, multilingual shop, responsive layout, retina ready. If you want to build your website within a few moments, choose this multipurpose corporate theme. It suits your business. It supports most of the popular themes from WordPress repository. Compatiable with modern browser like IE 9+, Opera, Firefox, Chrome, Safari including fit in all devices like iPhone, iPad, Android, Tablet, Mac, Desktop etc. This theme is translation ready. Check out Theme Instructions at http://doc.evisionthemes.com/clean-biz and Demo at demo.evisionthemes.com/clean-biz
+Clean Biz, a dynamic, fast responsive business WordPress theme. Whether you require an eCommerce, Business, Woo-commerce, multilingual shop, responsive layout, retina ready. If you want to build your website within a few moments, choose this multipurpose corporate theme. It suits your business. It supports it should be popular plugins from WordPress repository. Compatiable with modern browser like IE 9+, Opera, Firefox, Chrome, Safari including fit in all devices like iPhone, iPad, Android, Tablet, Mac, Desktop etc. This theme is translation ready. Check out Theme Instructions at http://doc.evisionthemes.com/clean-biz and Demo at demo.evisionthemes.com/clean-biz
 == Copyright ==
 
 clean-biz WordPress Theme, Copyright @ eVision Themes
@@ -101,6 +101,9 @@ Note:
 	If your Image is not align properly, then you can try regenerate thumbnails. So that it can fit on required image size.
 
 == Changelog ==
+= - 1.1.1 - =
+* issue fixed on callback button and description of theme
+
 = - 1.1.0 - =
 * banner button color and date remove on portfolio section
 
